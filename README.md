@@ -40,3 +40,30 @@ void loop() {
 }
 ```
 
+### Operador not "~" aun no entiendo como funciona
+
+```c++
+void setup() 
+{
+Serial.begin(115200);
+
+int num = 4;
+int num2 = 5;
+
+delay(5000);
+
+//0000000000000101
+//1111111111111010
+
+//con signo
+Serial.println(~5);
+
+//sin signo
+Serial.println(~(unsigned int)5);
+}
+
+void loop() {
+
+}
+```
+
