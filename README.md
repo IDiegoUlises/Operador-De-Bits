@@ -40,7 +40,7 @@ void loop() {
 }
 ```
 
-### Operador not "~" aun no entiendo como funciona
+### Operador not "~"
 
 ```c++
 unsigned int x = 1;
