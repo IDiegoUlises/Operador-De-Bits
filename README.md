@@ -43,28 +43,24 @@ void loop() {
 ### Operador not "~" aun no entiendo como funciona
 
 ```c++
-void setup() 
-{
+unsigned int x = 1;
+ unsigned int y= ~x;
+
+void setup() {
 Serial.begin(115200);
-
-int num = 4;
-int num2 = 5;
-
 delay(5000);
 
-//0000000000000101
-//1111111111111010
-
-//con signo
-Serial.println(~5);
-
-//sin signo
-Serial.println(~(unsigned int)5);
+Serial.println(y);
 }
 
 void loop() {
+  // put your main code here, to run repeatedly:
 
 }
+//binario de 32 bits
+//00000000000000000000000000000001 es 1 
+//11111111111111111111111111111110 en decimal 4.294.967.294
+
 ```
 
 ### Operador xor "^"
