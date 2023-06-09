@@ -109,3 +109,24 @@ void loop() {
 }
 ```
 
+### Operador de desplazamiento hacia la derecha ">>"
+
+```c++
+void setup() 
+{
+Serial.begin(115200);
+
+int num = 4;
+int num2 = 5;
+
+delay(5000);
+
+
+Serial.println(4 >> 1);
+
+}
+
+void loop() {
+
+}
+```
