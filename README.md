@@ -67,3 +67,24 @@ void loop() {
 }
 ```
 
+### Operador xor "^"
+```c++
+void setup() 
+{
+Serial.begin(115200);
+
+int num = 4;
+int num2 = 5;
+
+delay(5000);
+
+
+Serial.println(12 ^ 10);
+
+}
+
+void loop() {
+
+}
+```
+
