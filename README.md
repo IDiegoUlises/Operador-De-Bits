@@ -1,3 +1,3 @@
-# Operador-De-Bits
+# Operador de Nivel de Bits
 
-EDITAR ESTO CONTRANTA LOS OPERADORES DE BITS de desplazamiento >> << 
+
