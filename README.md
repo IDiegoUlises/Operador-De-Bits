@@ -109,6 +109,10 @@ void loop()
 ```
 
 ### Operador de desplazamiento hacia la izquierda "<<"
+Los números enteros se almacenan en la memoria como una serie de bits. Por ejemplo, el número 6 almacenado como 32 bits int sería:
+``` 00000000 00000000 00000000 00000110 ```
+
+
 ```c++
 //Binario de 32 bits
 int num = 6; //00000000000000000000000000000110 en binario
