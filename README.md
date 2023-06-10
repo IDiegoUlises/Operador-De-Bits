@@ -81,21 +81,27 @@ void loop() {
 
 ### Operador xor "^"
 ```c++
-void setup() 
+void setup()
 {
-Serial.begin(115200);
+  //Inicia el puerto serial
+  Serial.begin(115200);
 
-int num = 4;
-int num2 = 5;
+  int num = 4; //100 en binario
+  int num2 = 5; //101 en binario
 
-delay(5000);
+  //Retardo de cinco segundos
+  delay(5000);
 
+  //Imprime con la operacion and
+  Serial.println(num ^ num2);
 
-Serial.println(12 ^ 10);
-
+  //100
+  //101
+  //=001 es 1 en decimal
 }
 
-void loop() {
+void loop()
+{
 
 }
 ```
