@@ -136,21 +136,25 @@ void loop()
 ### Operador de desplazamiento hacia la derecha ">>"
 
 ```c++
-void setup() 
+//Binario de 32 bits
+int num = 12; //00000000000000000000000000001100 en binario
+int num2 = 1;//00000000000000000000000000000001 en binario
+
+void setup()
 {
-Serial.begin(115200);
+  //Inicia el puerto serial
+  Serial.begin(115200);
 
-int num = 4;
-int num2 = 5;
+  //Retardo de cinco segundos
+  delay(5000);
 
-delay(5000);
-
-
-Serial.println(4 >> 1);
+  //Hace el desplazamiento a la derecha y muestra el resultado de 6
+  Serial.println(num >> num2);
 
 }
 
-void loop() {
+void loop()
+{
 
 }
 ```
