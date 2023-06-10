@@ -110,7 +110,7 @@ void loop()
 
 ### Operador de desplazamiento hacia la izquierda "<<"
 * Los numeros enteros se almacenan en la memoria como una conjunto de bits
-* El numero 6 en 32 bits como tipo int es: ``` 00000000 00000000 00000000 00000110 ```
+* El numero 6 decimal en binario de 32 bits es: ``` 00000000 00000000 00000000 00000110 ```
 * Al hacer el desplazamiento ( 6 << 1) entregara como resultado el numero 12: ``` 00000000 00000000 00000000 00001100 ```
 
 
