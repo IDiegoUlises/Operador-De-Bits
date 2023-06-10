@@ -59,24 +59,26 @@ void loop()
 ### Operador not "~"
 
 ```c++
-unsigned int x = 1;
- unsigned int y= ~x;
+//Binario de 32 bits
+unsigned int x = 1; //00000000000000000000000000000001 en binario
+unsigned int y = ~x; //11111111111111111111111111111110
 
-void setup() {
-Serial.begin(115200);
-delay(5000);
+void setup()
+{
+  //Inicia el puerto serial
+  Serial.begin(115200);
 
-Serial.println(y);
+  //Retardo de cinco segundos
+  delay(5000);
+
+  //Imprime el resultado de 4.294.967.294
+  Serial.println(y);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop() 
+{
 
 }
-//binario de 32 bits
-//00000000000000000000000000000001 es 1 
-//11111111111111111111111111111110 en decimal 4.294.967.294
-
 ```
 
 ### Operador xor "^"
