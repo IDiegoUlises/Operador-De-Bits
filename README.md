@@ -19,7 +19,7 @@ void setup()
 
   //100
   //101
-  //=101 es 4 en decimal
+  //=100 es 4 en decimal
 }
 
 void loop()
