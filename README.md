@@ -139,6 +139,11 @@ void loop()
 ```
 
 ### Operador de desplazamiento hacia la derecha ">>"
+El desplazamiento aritmético a la derecha es exactamente igual que el desplazamiento lógico a la derecha, excepto que en lugar de rellenar con cero, rellena con el bit más significativo. Esto se debe a que el bit más significativo es el bit de signo , o el bit que distingue los números positivos y negativos. Al rellenar con el bit más significativo, el desplazamiento aritmético a la derecha conserva el signo.
+
+* Los numeros enteros se almacenan en la memoria como una conjunto de bits
+* El numero 12 decimal en binario de 32 bits es: ``` 00000000 00000000 00000000 00001100 ```
+* Al hacer el desplazamiento ( 12 << 1) entregara como resultado el numero 6: ``` 00000000 00000000 00000000 00000110 ```
 
 ```c++
 //Binario de 32 bits
