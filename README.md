@@ -61,7 +61,7 @@ void loop()
 ```c++
 //Binario de 32 bits
 unsigned int x = 1; //00000000000000000000000000000001 en binario
-unsigned int y = ~x; //11111111111111111111111111111110
+unsigned int y = ~x; //11111111111111111111111111111110 esta negado
 
 void setup()
 {
