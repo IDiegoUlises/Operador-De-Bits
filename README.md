@@ -3,19 +3,27 @@
 ### El operador and "&" 
 
 ```c++
-void setup() 
+void setup()
 {
-Serial.begin(115200);
+  //Inicia el puerto serial
+  Serial.begin(115200);
 
-int num = 4;
-int num2 = 5;
+  int num = 4; //100 en binario
+  int num2 = 5; //101 en binario
 
-delay(5000);
+  //Retardo de cinco segundos
+  delay(5000);
 
-Serial.println(num & num2);
+  //Imprime con la operacion and
+  Serial.println(num & num2);
+
+  //100
+  //101
+  //=101 es 4 en decimal
 }
 
-void loop() {
+void loop()
+{
 
 }
 ```
