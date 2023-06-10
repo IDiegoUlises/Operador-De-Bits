@@ -110,6 +110,7 @@ void loop()
 
 ### Operador de desplazamiento hacia la izquierda "<<"
 Los numeros enteros se almacenan en la memoria como una conjunto de bits
+
 El número 6 almacenado como 32 bits int es:
 ``` 00000000 00000000 00000000 00000110 ```
 Desplazar este patrón de bits a la izquierda una posición ( 6 << 1) daría como resultado el número 12:
